@@ -1,5 +1,7 @@
 export default {
-  helloFromAServerComponent: "Bonjour d'un composant serveur!",
-  helloFromAClientComponent: "Bonjour d'un composant client!",
+  helloFromAServerComponent: "Bonjour depuis un composant serveur!",
+  helloFromAClientComponent: "Bonjour depuis un composant client!",
   page: "Page {type} ({path})",
+  value: "Valeur de {key}: {value}",
+  component: "Composant {type} ({path})",
 } as const;
