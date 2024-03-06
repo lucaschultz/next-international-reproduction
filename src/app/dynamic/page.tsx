@@ -3,7 +3,7 @@ import { LOCALE_COOKIE, LOCALE_HEADER } from "@/helpers/add-locale-to-response";
 import { getI18n } from "@/locales/server";
 import { cookies, headers } from "next/headers";
 
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
 
 export default async function DynamicPage() {
   const t = await getI18n();
