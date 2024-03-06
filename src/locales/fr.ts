@@ -1,5 +1,5 @@
 export default {
-  rootLayout: "Bonjour depuis la mise en page principale!",
-  pageType: "Ceci est une page {type}!",
-  value: "Valeur de {key}: {value}",
+  helloFromAServerComponent: "Bonjour d'un composant serveur!",
+  helloFromAClientComponent: "Bonjour d'un composant client!",
+  page: "Page {type} ({path})",
 } as const;
